@@ -6,6 +6,7 @@
 
 ## Features
 Encrypt Minecraft worlds and demand a Minecoin ransom.
+<video src="https://github.com/user-attachments/assets/2db17e66-bf90-494a-bf67-0815976330ec" autoplay muted loop playsinline style="max-width: 100%;"></video>
 
 Phish connecting Minecraft players.
 
