@@ -1,5 +1,8 @@
-# minegrief
-![mg11](https://github.com/user-attachments/assets/c5f4c746-5033-481d-926a-9ce188834042)
+<h1 align="center">
+  <img src="https://github.com/user-attachments/assets/251374d0-b0d6-4808-91d7-9400f692101e" alt="minegrief" width="500px" height=auto>
+  <br>
+</h1>
+
 
 ## Features
 Encrypt Minecraft worlds and demand a Minecoin ransom.
