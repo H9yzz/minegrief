@@ -26,3 +26,8 @@ I used this script to create the agent jarfile, including any requried dependenc
 ```bash
 
 ```
+
+## Targeting
+Minecraft servers will always have Java installed so we don't have to worry about installing it ourselves.
+
+Infected servers will receive CIDR blocks to scan from the C2. Certain ASNs have a higher frequency of Minecraft servers (ex: Digital Ocean ASNs).  I have scraped shodan/censys to find these ASNs, the data is [here](top-asn.csv)
