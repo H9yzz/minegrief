@@ -37,8 +37,10 @@ wget https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.17/jsch-0.2.17.ja
 unzip jsch-0.2.17.jar
 ```
 
-Make the jarfile
+Run this from the root of the repository
 ```bash
+rm -rf build-manual
+mkdir build-manual
 find minegriefagent -name '*.java' > sources.txt
 <JAVA 1.8 DIR>/bin/javac -d build-manual @sources.txt
 cp -r com/jcraft build-manual/com
@@ -52,7 +54,10 @@ Run it
 ```
 
 ### To build the server jarfile
+Run this from the root of the repository
 ```bash
+rm -rf build-manual
+mkdir build-manual
 find minegriefserver -name '*.java' > sources.txt
 <JAVA 1.8 DIR>/bin/javac -d build-manual @sources.txt
 echo 'Manifest-Version: 1.0\nMain-Class: com.chebuya.minegriefserver.Main\nBundler-Format: 1.0' > manifest.txt
