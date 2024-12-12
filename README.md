@@ -16,6 +16,8 @@ Self-spreading to other Minecraft servers using an extendable, module-based late
 Persistence/stealth by "infecting" the Minecraft server jar file via manifest entry point modification (https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html)
 
 Centralized command and control for system-level control of infected servers.
+<video src="https://github.com/user-attachments/assets/428ca357-8954-4efa-aafd-4754bc640040" autoplay muted loop playsinline style="max-width: 100%;"></video>
+
 
 Extendable transport system, allowing for the creation of customized C2 channels.
 
