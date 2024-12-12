@@ -90,3 +90,12 @@ Run it
 Minecraft servers will always have Java installed so we don't have to worry about installing it ourselves.
 
 Infected servers will receive CIDR blocks to scan from the C2. Certain ASNs have a higher frequency of Minecraft servers (ex: Digital Ocean ASNs).  I have scraped shodan/censys to find these ASNs, the data is [here](top-asn.csv)
+
+
+--------
+
+<div align="center">
+  
+`minegrief` is made with 🖤 by [@_chebuya](https://x.com/_chebuya) and distributed under the [MIT license](LICENSE.md).
+
+</div>
