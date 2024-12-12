@@ -17,3 +17,11 @@ Centralized command and control for system-level control of infected servers
 Extendable transport system, allowing for the creation of customized C2 channels.
 
 Works on Java 8 and above
+
+
+## Notes
+Lateral movement modules require minegriefagent to be built as a jar file
+I used this script to create the agent jarfile, including any requried dependencies
+```bash
+
+```
