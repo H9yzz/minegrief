@@ -3,6 +3,12 @@
   <br>
 </h1>
 
+<p align="center">
+<a href="https://x.com/_chebuya"><img src="https://img.shields.io/twitter/follow/_chebuya.svg?logo=twitter"></a>
+<a href="https://img.shields.io/github/stars/chebuya/minegrief"><img src="https://img.shields.io/github/stars/chebuya/minegrief"></a>
+<a href="https://img.shields.io/badge/Java-000000?logo=OpenJDK"><img src="https://img.shields.io/badge/Java-000000?logo=OpenJDK"></a>
+</p>
+
 
 ## Features
 Encrypt Minecraft worlds and demand a Minecoin ransom.
