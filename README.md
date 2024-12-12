@@ -7,10 +7,16 @@
 <a href="https://x.com/_chebuya"><img src="https://img.shields.io/twitter/follow/_chebuya.svg?logo=twitter"></a>
 <a href="https://img.shields.io/github/stars/chebuya/minegrief"><img src="https://img.shields.io/github/stars/chebuya/minegrief"></a>
 <a href="https://img.shields.io/badge/Java-000000?logo=OpenJDK"><img src="https://img.shields.io/badge/Java-000000?logo=OpenJDK"></a>
+<a href="https://opensource.org/license/MIT"><img src="https://img.shields.io/badge/license-MIT-blue"></a>
 </p>
 
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#notes">Notes</a> •
+  <a href="#targeting">Targeting</a>
+</p>
 
-## Features
+# Features
 Encrypt Minecraft worlds and demand a Minecoin ransom.
 <video src="https://github.com/user-attachments/assets/2db17e66-bf90-494a-bf67-0815976330ec" autoplay muted loop playsinline style="max-width: 100%;"></video>
 
@@ -33,10 +39,10 @@ Extendable transport system, allowing for the creation of customized C2 channels
 Works on Java 8 and above.
 
 
-## Notes
+# Notes
 Lateral movement modules require minegriefagent to be built as a jar file, as modules will copy itself over in a jar to spread.
 
-### To build the agent jarfile
+## To build the agent jarfile
 Download jsch to the root directory of the repository
 ```bash
 wget https://repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.17/jsch-0.2.17.jar
@@ -59,7 +65,7 @@ Run it
 <JAVA 1.8 DIR>/bin/java -jar malware.jar
 ```
 
-### To build the server jarfile
+## To build the server jarfile
 Run this from the root of the repository
 ```bash
 rm -rf build-manual
@@ -76,7 +82,7 @@ Run it
 ```
 
 
-## Targeting
+# Targeting
 Minecraft servers will always have Java installed so we don't have to worry about installing it ourselves.
 
 Infected servers will receive CIDR blocks to scan from the C2. Certain ASNs have a higher frequency of Minecraft servers (ex: Digital Ocean ASNs).  I have scraped shodan/censys to find these ASNs, the data is [here](top-asn.csv)
