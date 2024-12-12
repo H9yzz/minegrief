@@ -10,6 +10,8 @@ Encrypt Minecraft worlds and demand a Minecoin ransom.
 
 Phish connecting Minecraft players.
 
+<video src="https://github.com/user-attachments/assets/67b052fb-45ac-42bb-96d5-a57c177bd353" autoplay muted loop playsinline style="max-width: 100%;"></video>
+
 Self-spreading to other Minecraft servers using an extendable, module-based lateral movement system.
   - Crafty Controller Auth'd RCE - undisclosed, unpatched, intentional(?) Auth'd RCE in Crafty Controller, a panel for Minecraft server management (https://craftycontrol.com/). Check for default creds of admin:crafty or brute force.
   - SSH brute forcing - Classic SSH brute forcing, Minegrief will copy itself over SCP and execute itself if a login is successful
