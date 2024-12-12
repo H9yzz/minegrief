@@ -20,7 +20,8 @@ Works on Java 8 and above
 
 
 ## Notes
-Lateral movement modules require minegriefagent to be built as a jar file
+Lateral movement modules require minegriefagent to be built as a jar file, as modules will copy itself over in a jar to spread.
+
 I used this script to create the agent jarfile, including any requried dependencies
 ```bash
 
