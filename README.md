@@ -15,3 +15,5 @@ Persistence/stealth by "infecting" the Minecraft server jar file via manifest en
 Centralized command and control for system-level control of infected servers
 
 Extendable transport system, allowing for the creation of customized C2 channels.
+
+Works on Java 8 and above
