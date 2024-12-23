@@ -2,7 +2,10 @@
 <b>Minegrief</b>
 </h1>
 
+
 <h1 align="center">
+  https://github.com/blackmassgroup/minegrief
+
   <img src="https://github.com/user-attachments/assets/251374d0-b0d6-4808-91d7-9400f692101e" alt="minegrief" width="500px" height=auto>
   <br>
 </h1>
