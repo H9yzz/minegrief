@@ -3,6 +3,11 @@
 </h1>
 
 <h1 align="center">
+  Submission for vxunderground JVM malware contest
+    <img src="https://github.com/user-attachments/assets/b83ae4d1-36ab-4b60-9b2d-c132ca7d9419" alt="minegrief" width="500px" height=auto>
+
+  https://github.com/blackmassgroup/minegrief
+
   <img src="https://github.com/user-attachments/assets/251374d0-b0d6-4808-91d7-9400f692101e" alt="minegrief" width="500px" height=auto>
   <br>
 </h1>
