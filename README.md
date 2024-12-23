@@ -2,6 +2,11 @@
 <b>Minegrief</b>
 </h1>
 
+<h1 align="center">
+  <img src="https://github.com/user-attachments/assets/251374d0-b0d6-4808-91d7-9400f692101e" alt="minegrief" width="500px" height=auto>
+  <br>
+</h1>
+
 <p align="center">
 <a href="https://x.com/_chebuya"><img src="https://img.shields.io/twitter/follow/_chebuya.svg?logo=twitter"></a>
 <a href="https://img.shields.io/github/stars/chebuya/minegrief"><img src="https://img.shields.io/github/stars/chebuya/minegrief"></a>
